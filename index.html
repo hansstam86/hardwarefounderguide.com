@@ -192,6 +192,14 @@ nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.96);backdrop-
   #hs-ecosystem{padding:20px}
 }
 </style>
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RP1MK5ZGM4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RP1MK5ZGM4');
+</script>
 </head>
 <body>
 
@@ -848,7 +856,6 @@ nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.96);backdrop-
     </a>
   </div>
 </section>
-
 <script src="https://www.dfminsights.com/ecosystem.js"></script>
 
 <script>
@@ -867,5 +874,6 @@ const observer = new IntersectionObserver(entries => {
 }, { threshold: 0.3 });
 sections.forEach(s => observer.observe(s));
 </script>
+<script src="https://www.dfminsights.com/ecosystem.js"></script>
 </body>
 </html>
